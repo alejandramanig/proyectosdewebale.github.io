@@ -1,0 +1,34 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0;
+    padding:0; }
+
+
+header, section, article, footer, div, nav, aside, main { box-sizing: border-box;}
+
+#gallery { width: 100%;
+            min-height: 1px; }
+
+.container { display: flex;
+            /*flex-direction:column-reverse;*/
+            /*flex-wrap: wrap-reverse;*/
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: stretch;
+            width: 70%;
+            min-height: 400px;
+            background-color: blueviolet;
+            margin: auto; 
+            padding: 15px; 
+            text-align: center;
+            color:azure;
+            font: size 2em;}
+
+.items { width: 15%;
+    
+    background-color: coral;
+    border-radius: 15px; }
+
+.self { align-self: flex-end; }
+
+    

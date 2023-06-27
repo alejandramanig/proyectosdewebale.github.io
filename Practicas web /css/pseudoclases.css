@@ -1,0 +1,41 @@
+/DOCUMENTO CSS/
+
+* { margin: 0px;
+    padding: 0px; }
+
+body { font-family: 'Inter', sans-serif;z }
+#productos { width: 100%;
+             min-height: 1px;
+             background-color: rgb(53, 53, 141);
+            padding: 30px 0px; }
+
+h1 { font-family: 'Inter', sans-serif; }
+font
+
+
+
+
+.container { width: 70%;
+             min-height: 1px;
+             display: flex; 
+             margin: 0px auto 0px auto; }
+ 
+.items { width: 33.33%;
+         text-align: center;
+         min-height: 130%; 
+         background-image: url(../IMG/ppppppppppp\ camara.jpg);}
+   
+.items::after { content: "vendido";
+                display: block;
+            width: 100%;
+        padding: 8px;
+    text-transform: uppercase;
+margin-top: 95px;
+transform: rotate(); }
+
+.contenido { padding: 35%; }
+
+.contenido p { line-height: 1.5; }
+
+.contenido p::first-letter { font-size: 5em; 
+float: left; }
